@@ -30,15 +30,17 @@ It manages a marketplace of albums.
 
 ## Project creation
 
-1. `$ ng new club-manager`
-2. `$ cd club-manager`
-3. `$ bower init`
-4. `$ bower install bootstrap --save`
-5. `$ ng g c about`
-6. `$ ng g c home`
-7. `$ ng g c member-list`
-8. `$ ng g c member-detail`
-9. `$ npm install angularfire2 firebase --save`
+* `$ ng new club-manager`
+* `$ cd club-manager`
+* `$ bower init`
+* `$ bower install bootstrap --save`
+* `$ ng g c about`
+* `$ ng g c home`
+* `$ ng g class member.model`
+* `$ ng g service member`
+* `$ ng g c member-list`
+* `$ ng g c member-detail`
+* `$ npm install angularfire2 firebase --save`
 
 
 ## Technologies Used
