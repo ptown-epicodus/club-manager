@@ -11,8 +11,8 @@ import { MemberService } from '../member.service';
   providers: [MemberService]
 })
 export class CreateMemberComponent implements OnInit {
-  public memberName: string = 'member';
-  public groupName: string = 'club';
+  public memberName: string = 'player';
+  public groupName: string = 'team';
 
   constructor(
     private memberService: MemberService

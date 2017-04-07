@@ -1,9 +1,9 @@
 <div class="panel panel-default">
   <div class="panel-heading">
-    <h4 class="panel-title">Edit member</h4>
+    <h4 class="panel-title">Edit {{memberName}}</h4>
   </div>
   <div class="panel-body">
-    <label>New {{memberName}} name:</label>
+    <label><span class="title-case">{{memberName}}</span> name:</label>
     <input [(ngModel)]="selectedMember.name">
     <label>Position:</label>
     <input [(ngModel)]="selectedMember.position">
