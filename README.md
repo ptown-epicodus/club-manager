@@ -33,7 +33,7 @@ It manages a marketplace of albums.
 1. `$ ng new club-manager`
 2. `$ cd club-manager`
 3. `$ bower init`
-4. `$ bower install bootsrap --save`
+4. `$ bower install bootstrap --save`
 5. `$ ng g c about`
 6. `$ ng g c member-list`
 7. `$ ng g c member-detail`
