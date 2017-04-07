@@ -35,9 +35,10 @@ It manages a marketplace of albums.
 3. `$ bower init`
 4. `$ bower install bootstrap --save`
 5. `$ ng g c about`
-6. `$ ng g c member-list`
-7. `$ ng g c member-detail`
-8. `$ npm install angularfire2 firebase --save`
+6. `$ ng g c home`
+7. `$ ng g c member-list`
+8. `$ ng g c member-detail`
+9. `$ npm install angularfire2 firebase --save`
 
 
 ## Technologies Used
