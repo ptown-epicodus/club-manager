@@ -13,6 +13,7 @@ import { MemberService } from '../member.service';
 })
 export class MemberListComponent implements OnInit {
   public members: FirebaseListObservable<any[]>;
+  currentRoute: string = this.router.url;
 
   constructor(
     private memberService: MemberService,
