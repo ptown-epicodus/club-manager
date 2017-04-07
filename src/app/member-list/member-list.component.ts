@@ -14,6 +14,7 @@ import { MemberService } from '../member.service';
 export class MemberListComponent implements OnInit {
   public members: FirebaseListObservable<any[]>;
   currentRoute: string = this.router.url;
+  filterByPosition: string = 'all';
 
   constructor(
     private memberService: MemberService,
@@ -26,6 +27,10 @@ export class MemberListComponent implements OnInit {
 
   memberClicked(clickedMember) {
     this.router.navigate(['members', clickedMember.$key]);
+  }
+
+  onChange(optionFromMenu: string) {
+    this.filterByPosition = optionFromMenu;
   }
 
 }

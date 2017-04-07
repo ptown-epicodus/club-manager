@@ -1,5 +1,17 @@
 <h3>Member list:</h3>
-<div class="panel panel-info" *ngFor="let member of members | async">
+<div>
+  <label>Filter by position:</label>
+  <select (change)="onChange($event.target.value)">
+    <option value="all">All players</option>
+    <option value="forward">Forwards</option>
+    <option value="guard">Guards</option>
+    <option value="point guard">Point guards</option>
+    <option value="center">Centers</option>
+    <option value="forward-center">Forward-centers</option>
+    <option value="swingman">Swingmen</option>
+  </select>
+</div>
+<div class="panel panel-info" *ngFor="let member of members | async | position:filterByPosition">
   <div class="panel-heading" (click)="memberClicked(member)">
     <h4 class="panel-title">{{member.name}}</h4>
   </div>

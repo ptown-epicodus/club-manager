@@ -15,6 +15,7 @@ import { MemberDetailComponent } from './member-detail/member-detail.component';
 import { CreateMemberComponent } from './create-member/create-member.component';
 import { AdminComponent } from './admin/admin.component';
 import { EditMemberComponent } from './edit-member/edit-member.component';
+import { PositionPipe } from './position.pipe';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -32,7 +33,8 @@ export const firebaseConfig = {
     MemberDetailComponent,
     CreateMemberComponent,
     AdminComponent,
-    EditMemberComponent
+    EditMemberComponent,
+    PositionPipe
   ],
   imports: [
     BrowserModule,
