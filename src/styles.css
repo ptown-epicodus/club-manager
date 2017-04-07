@@ -11,3 +11,29 @@
 .title-case {
   text-transform: capitalize;
 }
+
+.clickable:hover {
+  cursor: pointer;
+}
+
+.player-number {
+  font-size: 72pt;
+  color: red;
+}
+
+img.team-logo {
+  width: 10%;
+  height: auto;
+}
+
+.jumbotron {
+  background-image: url("https://pbs.twimg.com/profile_images/824665022064259072/xUUEGycJ_400x400.jpg");
+}
+
+.jumbotron h1 {
+  color: red;
+}
+
+body {
+  background-color: black;
+}

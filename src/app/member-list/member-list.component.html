@@ -12,10 +12,14 @@
   </select>
 </div>
 <div class="panel panel-info" *ngFor="let member of members | async | position:filterByPosition">
-  <div class="panel-heading" (click)="memberClicked(member)">
+  <div class="panel-heading clickable" (click)="memberClicked(member)">
+    <h3>{{member.playerNumber}}</h3>
     <h4 class="panel-title">{{member.name}}</h4>
   </div>
   <div class="panel-body">
+    <div *ngIf="currentRoute === '/members'">
+      <p class="title-case">{{member.position}}</p>
+    </div>
     <div *ngIf="currentRoute === '/admin'">
       <app-edit-member [selectedMember]="member"></app-edit-member>
     </div>

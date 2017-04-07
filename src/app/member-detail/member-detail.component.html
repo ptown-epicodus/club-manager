@@ -1,1 +1,16 @@
+<h1 class="player-number">{{(memberToDisplay | async)?.playerNumber}}</h1>
 <h3>{{(memberToDisplay | async)?.name}}</h3>
+
+<div class="panel panel-danger">
+  <div class="panel-heading">
+    <h1 class="panel-title">Stats</h1>
+  </div>
+  <div class="panel-body">
+    <ul>
+      <li>Position: <span class="title-case">{{(memberToDisplay | async)?.position}}</span></li>
+      <li>Height: {{(memberToDisplay | async)?.height * 3.28 | round}} ft, {{(memberToDisplay | async)?.height * 39.37 % 12 | round}} in.</li>
+      <li>Weight: {{(memberToDisplay | async)?.weight * 2.2 | round}} lbs</li>
+      <li>College: {{(memberToDisplay | async)?.college}}</li>
+    </ul>
+  </div>
+</div>
