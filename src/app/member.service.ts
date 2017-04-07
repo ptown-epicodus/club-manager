@@ -22,4 +22,11 @@ export class MemberService {
   addMember(newMember: Member) {
     this.members.push(newMember);
   }
+
+  updateMember(localUpdateMember) {
+    let memberEntryInFirebase = this.getMemberById(localUpdateMember.$key);
+    memberEntryInFirebase.update({
+      name: localUpdateMember.name
+    });
+  }
 }

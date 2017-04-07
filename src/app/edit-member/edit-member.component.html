@@ -5,5 +5,6 @@
   <div class="panel-body">
     <label>New {{memberName}} name:</label>
     <input [(ngModel)]="selectedMember.name">
+    <button (click)="beginUpdatingMember(selectedMember)">Update</button>
   </div>
 </div>
