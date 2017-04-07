@@ -8,7 +8,7 @@
 ## Description
 
 This website was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
-It manages a marketplace of albums.
+It manages a list of club members.
 
 ## Setup
 1. Set project root as working directory in CLI after cloning repo.
@@ -39,8 +39,8 @@ It manages a marketplace of albums.
 * `$ ng g class member.model`
 * `$ ng g service member`
 * `$ ng g c member-list`
-* `$ ng g c member-detail`
 * `$ npm install angularfire2 firebase --save`
+* `$ ng g c member-detail`
 
 
 ## Technologies Used
