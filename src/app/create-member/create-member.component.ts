@@ -21,8 +21,9 @@ export class CreateMemberComponent implements OnInit {
   ngOnInit() {
   }
 
-  submitForm(name: string) {
-    let newMember: Member = new Member(name);
+  submitForm(name: string, position: string, playerNumber: number, height: number, weight: number, college: string) {
+    let newMember: Member = new Member(name, position, playerNumber, height, weight, college);
+    console.log(newMember);
     this.memberService.addMember(newMember);
   }
 

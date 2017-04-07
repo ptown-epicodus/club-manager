@@ -9,7 +9,32 @@
         <br>
         <input #newName>
       </div>
-      <button (click)="submitForm(newName.value); newName.value=''">Add</button>
+      <div>
+        <label>Position:</label>
+        <br>
+        <input #newPosition>
+      </div>
+      <div>
+        <label>Number:</label>
+        <br>
+        <input #newNumber type="number">
+      </div>
+      <div>
+        <label>Height:</label>
+        <br>
+        <input #newHeight type="number">
+      </div>
+      <div>
+        <label>Weight:</label>
+        <br>
+        <input #newWeight type="number">
+      </div>
+      <div>
+        <label>College:</label>
+        <br>
+        <input #newCollege>
+      </div>
+      <button (click)="submitForm(newName.value, newPosition.value, newNumber.value, newHeight.value, newWeight.value, newCollege.value); newName.value=''; newPosition.value=''; newNumber.value=''; newHeight.value=''; newWeight.value=''; newCollege.value=''">Add</button>
     </div>
   </div>
 </div>

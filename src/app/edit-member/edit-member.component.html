@@ -5,6 +5,16 @@
   <div class="panel-body">
     <label>New {{memberName}} name:</label>
     <input [(ngModel)]="selectedMember.name">
+    <label>Position:</label>
+    <input [(ngModel)]="selectedMember.position">
+    <label>Number:</label>
+    <input [(ngModel)]="selectedMember.playerNumber" type="number">
+    <label>Height:</label>
+    <input [(ngModel)]="selectedMember.height" type="number">
+    <label>Weight:</label>
+    <input [(ngModel)]="selectedMember.weight" type="number">
+    <label>College:</label>
+    <input [(ngModel)]="selectedMember.college">
     <button (click)="beginUpdatingMember(selectedMember)">Update</button>
     <hr>
     <button (click)="beginDeletingMember(selectedMember)">Delete</button>

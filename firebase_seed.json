@@ -1,6 +1,107 @@
 { "members": [{
-    "name": "John Doe"
+    "name": "Damian Lillard",
+    "position": "point guard",
+    "playerNumber": 0,
+    "height": 1.91,
+    "weight": 88,
+    "college": "Weber State"
     }, {
-    "name": "Jane Doe"
+    "name": "Evan Turner",
+    "position": "swingman",
+    "playerNumber": 1,
+    "height": 2.01,
+    "weight": 100,
+    "college": "Ohio State"
+    }, {
+    "name": "C.J. McCollum",
+    "position": "guard",
+    "playerNumber": 3,
+    "height": 1.91,
+    "weight": 86,
+    "college": "Lehigh"
+    }, {
+    "name": "Maurice Harkless",
+    "position": "forward",
+    "playerNumber": 4,
+    "height": 2.06,
+    "weight": 100,
+    "college": "St. John's"
+    }, {
+    "name": "Pat Connaughton",
+    "position": "swingman",
+    "playerNumber": 5,
+    "height": 1.96,
+    "weight": 95,
+    "college": "Notre Dame"
+    }, {
+    "name": "Shabazz Napier",
+    "position": "guard",
+    "playerNumber": 6,
+    "height": 1.85,
+    "weight": 79,
+    "college": "Connecticut"
+    }, {
+    "name": "Al-Farouq Aminu",
+    "position": "forward",
+    "playerNumber": 8,
+    "height": 2.06,
+    "weight": 100,
+    "college": "Wake Forest"
+    }, {
+    "name": "Jake Layman",
+    "position": "forward",
+    "playerNumber": 10,
+    "height": 2.06,
+    "weight": 95,
+    "college": "Maryland"
+    }, {
+    "name": "Meyers Leonard",
+    "position": "forward-center",
+    "playerNumber": 11,
+    "height": 2.16,
+    "weight": 116,
+    "college": "Illinois"
+    }, {
+    "name": "Ed Davis",
+    "position": "forward-center",
+    "playerNumber": 17,
+    "height": 2.08,
+    "weight": 111,
+    "college": "North Carolina"
+    }, {
+    "name": "Noah Vonleh",
+    "position": "forward",
+    "playerNumber": 21,
+    "height": 2.06,
+    "weight": 111,
+    "college": "Indiana"
+    }, {
+    "name": "Allen Crabbe",
+    "position": "guard",
+    "playerNumber": 23,
+    "height": 1.98,
+    "weight": 98,
+    "college": "UC Berkeley"
+    }, {
+    "name": "Jusuf Nurkić",
+    "position": "center",
+    "playerNumber": 27,
+    "height": 2.13,
+    "weight": 127,
+    "college": "Bosnia and Herzegovina"
+    }, {
+    "name": "Festus Ezeli",
+    "position": "center",
+    "playerNumber": 31,
+    "height": 2.11,
+    "weight": 120,
+    "college": "Vanderbilt"
+    }, {
+    "name": "Tim Quarterman",
+    "position": "guard",
+    "playerNumber": 55,
+    "height": 1.98,
+    "weight": 86,
+    "college": "LSU"
   }]
 }
