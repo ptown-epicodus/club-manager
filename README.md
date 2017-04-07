@@ -41,6 +41,9 @@ It manages a list of club members.
 * `$ ng g c member-list`
 * `$ npm install angularfire2 firebase --save`
 * `$ ng g c member-detail`
+* `$ ng g c admin`
+* `$ ng g c create-member`
+* `$ ng g c edit-member`
 
 
 ## Technologies Used
