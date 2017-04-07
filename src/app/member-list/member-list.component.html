@@ -1,6 +1,6 @@
 <h3>Member list:</h3>
 <ul>
-  <li *ngFor="let member of members | async">
+  <li *ngFor="let member of members | async" (click)="memberClicked(member)">
     {{member.name}}
   </li>
 </ul>
