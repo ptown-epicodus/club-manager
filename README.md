@@ -45,6 +45,7 @@ It manages a list of club members.
 * `$ ng g c create-member`
 * `$ ng g c edit-member`
 * `$ ng g pipe position`
+* `$ ng g pipe round`
 
 
 ## Technologies Used
