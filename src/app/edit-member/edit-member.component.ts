@@ -12,6 +12,7 @@ import { MemberService } from '../member.service';
 export class EditMemberComponent implements OnInit {
   @Input() selectedMember;
   public memberName: string = 'member';
+  public groupName: string = 'club';
 
   constructor(
     private memberService: MemberService
@@ -22,6 +23,12 @@ export class EditMemberComponent implements OnInit {
 
   beginUpdatingMember(memberToUpdate) {
     this.memberService.updateMember(memberToUpdate);
+  }
+
+  beginDeletingMember(memberToDelete) {
+    if(confirm("Are you sure you want to delete this " + this.memberName + " from the " + this.groupName + "?")){
+      this.memberService.deleteMember(memberToDelete);
+    }
   }
 
 }

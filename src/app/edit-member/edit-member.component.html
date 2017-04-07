@@ -6,5 +6,7 @@
     <label>New {{memberName}} name:</label>
     <input [(ngModel)]="selectedMember.name">
     <button (click)="beginUpdatingMember(selectedMember)">Update</button>
+    <hr>
+    <button (click)="beginDeletingMember(selectedMember)">Delete</button>
   </div>
 </div>
